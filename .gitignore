@@ -1,0 +1,32 @@
+# ── Node.js ──
+node_modules/
+dist/
+
+# ── Rust ──
+src-tauri/target/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── Config (contains SSH passwords) ──
+*.json.tmp
+
+# ── Tauri generated icons (keep only the 4 required by tauri.conf.json) ──
+# Excludes platform-specific outputs from `tauri icon` command
+src-tauri/icons/ios/
+src-tauri/icons/android/
+src-tauri/icons/Square*.png
+src-tauri/icons/StoreLogo.png
+src-tauri/icons/128x128@2x.png
+src-tauri/icons/64x64.png
+src-tauri/icons/icon.png
+src-tauri/icons/logo128.png
+src-tauri/icons/logo32.png
+src-tauri/icons/test.txt
